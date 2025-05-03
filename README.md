@@ -1,0 +1,1 @@
+# Algoritmo_Paralelo-Concorrente_Gerenciamento_Dinamico_Mem
