@@ -18,7 +18,7 @@ REPETICOES=$6
 TAM_MEDIO_ESTIMADO=$(( (MIN_TAM + MAX_TAM) / 2 ))
 
 # Nome do arquivo Java (sem extensão)
-ARQUIVO="GerenciadorMemoriaPaginacao"
+ARQUIVO="GerenciadorMemoriaSegmentadaPaginada"
 
 # Gerar nome do arquivo de saída CSV
 CSV_NOME="resultado_${HEAP_KB}_${PAGINA_B}_${REQUISICOES}_${TAM_MEDIO_ESTIMADO}_${REPETICOES}.csv"
