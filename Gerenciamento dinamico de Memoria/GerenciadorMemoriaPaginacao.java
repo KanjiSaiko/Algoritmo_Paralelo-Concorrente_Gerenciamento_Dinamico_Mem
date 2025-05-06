@@ -96,7 +96,7 @@ public class GerenciadorMemoriaPaginacao {
         return livres;
     }
 
-    private void liberarEspaco(int paginasNecessarias) {
+    private void liberarEspaco() {
         int paginasParaLiberar = (int) Math.ceil(0.3 * paginasOcupadas.length);
         int paginasLiberadas = 0;
 
